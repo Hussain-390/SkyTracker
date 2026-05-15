@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyTracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./weather-app.png">
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <main class="container">
+        <aside class="sidebar">
+            <div class="search-box">
+                <input type="text" id="userLocation" placeholder="Search city...">
+                <i class="fa fa-search" onclick="findUserLocation()"></i>
+            </div>
+            <div class="weatherIcon"></div>
+            <h1 class="temperature">--&deg;</h1>
+            <p class="feelsLike">Feels like --&deg;</p>
+            <h2 class="description">Loading...</h2>
+            <hr>
+            <p class="date">--</p>
+            <p class="city">--</p>
+        </aside>
+        <section class="dashboard">
+            <h2>Today's Highlights</h2>
+            <div class="grid cards">
+                <div class="card">
+                    <p>Humidity</p><i class="fa-solid fa-droplet"></i>
+                    <h3 id="HValue">--<span>%</span></h3>
+                </div>
+                <div class="card">
+                    <p>Wind</p><i class="fa-solid fa-wind"></i>
+                    <h3 id="WValue">--<span>km/h</span></h3>
+                </div>
+                <div class="card sun-card">
+                    <div><i class="fa-solid fa-sun"></i>
+                        <p id="SRValue">Sunrise --</p>
+                    </div>
+                    <div><i class="fa-solid fa-moon"></i>
+                        <p id="SSValue">Sunset --</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Clouds</p><i class="fa-solid fa-cloud"></i>
+                    <h3 id="CValue">--<span>%</span></h3>
+                </div>
+                <div class="card">
+                    <p>UV Index</p><i class="fa-solid fa-sun-plant-wilt"></i>
+                    <h3 id="UVValue">--</h3>
+                </div>
+                <div class="card">
+                    <p>Pressure</p><i class="fa-solid fa-gauge-high"></i>
+                    <h3 id="PValue">--<span>hPa</span></h3>
+                </div>
+            </div>
+            <h2>Weekly Forecast</h2>
+            <div class="grid weekly" id="weekly"></div>
+        </section>
+    </main>
+</body>
+
+</html>
