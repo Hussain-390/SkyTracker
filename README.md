@@ -36,12 +36,12 @@ Here are some previews of the dashboard responding dynamically to different weat
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/WeatherView.git
+   git clone https://github.com/Hussain-390/SkyTracker.git
    ```
 
 2. **Navigate to the project directory**
    ```bash
-   cd WeatherView-main
+   cd SkyTracker
    ```
 
 3. **Open the project**
@@ -52,6 +52,3 @@ Here are some previews of the dashboard responding dynamically to different weat
 1. Upon opening the application, it will attempt to fetch your current location's weather (if permitted).
 2. Use the **search bar** on the left to enter any city name and click the search icon to retrieve the latest weather data.
 
-## 🤝 Contributing
-
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request.
