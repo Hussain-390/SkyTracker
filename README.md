@@ -9,10 +9,8 @@ A simple, responsive, and visually appealing Weather Dashboard built using **HTM
 Here are some previews of the dashboard responding dynamically to different weather conditions:
 
 <div align="center">
-  Getting live weather updates
   <img width="1920" height="1080" alt="Screenshot 2026-05-15 084008" src="https://github.com/user-attachments/assets/9536c596-e655-4792-9f9c-fe2aef220323" />
   <img width="1920" height="1080" alt="Screenshot 2026-05-15 084028" src="https://github.com/user-attachments/assets/8e057565-4907-43a9-bc8d-c32e4704cf9b" />
-  Responsiveness
   <img width="952" height="1000" alt="image" src="https://github.com/user-attachments/assets/4b61f3a3-00ea-482a-adaa-8cb990ffddb0" />
   <img width="946" height="766" alt="image" src="https://github.com/user-attachments/assets/fc10a595-32b4-4fa9-8ac1-77f3861525dc" />
 </div>
